@@ -1,0 +1,70 @@
+messages:
+  # Non-removable lines.
+  # Traducion spanish by: DinoBossYT
+  # If you delete the line, a default English localization will be applied.
+  only-for-players: '&cEste comando es sólo para jugadores.'
+  chat-not-found: '&cChat aplicable no encontrado. No puede enviar el mensaje.'
+  reload: '&aConfiguracion recargada!'
+  no-permission: '&cTe faltan permisos para ejecutar este comando.'
+  spy-on: '&aModo espia de chat activado.'
+  spy-off: '&cModo espia de chat desactivado.'
+  cooldown: '&cEspere por favor {cooldown} segundos, para enviar mensajes en el chat.'
+  not-enough-money: '&cTu necesitas {money} dinero para enviar mensajes en el chat.'
+
+  clearchat-command:
+    usage: '&cUsa: /{label} [all]'
+    clear-chat-for-all: '&aChat eliminado por {player}.'
+    clear-chat-for-yourself: '&aEl chat fue eliminado.'
+
+  msg-command:
+    usage: '&cUsa: /{label} <jugador> <mensaje>'
+    player-not-found: '&cJugador no encontrado.'
+    cannot-message-yourself: '&cNo puede enviarse un mensaje a sí mismo.'
+
+  reply-command:
+    usage: '&cUsa /{label} <mensaje>'
+    target-not-found: '&cJugador no fue encontado.'
+
+  ignore-command:
+    usage: '&cUsa: /{label} <jugador>'
+    player-not-found: '&cJugador no encontrado'
+    ignore-list: '&eahora estás ignorando: &6{players}.'
+    ignore-list-delimiter: '&8, &6'
+    add-ignore: '&ctu añadiste a {player} lista de ignorados.'
+    remove-ignore: '&atu eliminaste a {player} de la lista de ignorados.'
+    cannot-ignore-yourself: '&cNo puedes ignorarte a ti mismo.'
+
+  swears-command:
+    usage: '&cUsa: /{label} add <palabra>'
+    add-word: '&ahas añadido la palabra {word} a lista blanca.'
+
+  chat-command:
+    usage: '&cUsa: /{label} <chat>'
+    chat-not-found: '&cNo se encontró el chat con este nombre.'
+    chat-switched: '&aHas cambiado al chat "{chat}".'
+    no-chat-permission: '&cte faltan permisos para el chat que desea usar.'
+
+  prefix-command:
+    usage: '&cUsa: /{label} <jugador> <<prefix>|clear>'
+    no-permissions-others: '&cYou don''t have permission to changing prefixes of other players.'
+    player-not-found: '&cPlayer not found.'
+    length-limit-min: '&cPrefix cannot be shorter than {limit} symbols.'
+    length-limit-max: '&cPrefix cannot be longer than {limit} symbols.'
+    prefix-clear: '&aYou cleared prefix of {player}.'
+    prefix-set: '&aYou set prefix &r{prefix} &afor player {player}.'
+
+  suffix-command:
+    usage: '&cUsing: /{label} <player> <<suffix>|clear>'
+    no-permissions-others: '&cYou don''t have permission to changing suffixes of other players.'
+    player-not-found: '&cPlayer not found.'
+    length-limit-min: '&cSuffix cannot be shorter than {limit} symbols.'
+    length-limit-max: '&cSuffix cannot be longer than {limit} symbols.'
+    prefix-clear: '&aYou cleared suffix of {player}.'
+    prefix-set: '&aYou set suffix &r{suffix} &afor player {player}.'
+
+  # Removable lines.
+  # Delete the line to disable message.
+  advertisement-found: '&cAdvertisement is detected in your message.'
+  no-recipients: '&cNobody heard you.'
+  caps-found: '&cCaps abuse is detected in your message.'
+  swear-found: '&cSwearing is detected in your message.'
